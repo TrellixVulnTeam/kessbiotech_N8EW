@@ -1,0 +1,16 @@
+{
+  "name": "kessbiotech",
+  "description": "kessbiotech is the official website for kessbiotech company",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
