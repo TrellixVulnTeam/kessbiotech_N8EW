@@ -137,14 +137,18 @@ INSTALLED_APPS = (
     'treebeard',
     'djangocms_text_ckeditor',
     'filer',
+    'aldryn_bootstrap3',
+    'aldryn_style',
     'easy_thumbnails',
+    'djangocms_forms',
     'djangocms_column',
     'djangocms_link',
     'cmsplugin_filer_file',
     'cmsplugin_filer_folder',
     'cmsplugin_filer_image',
     'cmsplugin_filer_utils',
-    'djangocms_style',
+    #'djangocms_style',
+
     'djangocms_snippet',
     'djangocms_googlemap',
     'djangocms_video',
@@ -189,12 +193,12 @@ CMS_PLACEHOLDER_CONF = {}
 DATABASES = {
     'default': {
         'CONN_MAX_AGE': 0,
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'ENGINE': 'django.db.backends.sqlite3',
         'HOST': 'localhost',
         'NAME': 'project.db',
-        'PASSWORD': 'joshuaemma+',
+        'PASSWORD': '',
         'PORT': '',
-        'USER': ''
+        'USER': '',
     }
 }
 
